@@ -1,4 +1,4 @@
-﻿# Verdaccio
+# Verdaccio
 
 ## On Server
 
