@@ -26,7 +26,7 @@ namespace VerdaccioService
         protected override void OnStart(string[] args)
         {
 
-            var info = new ProcessStartInfo(@"C:\Users\ftavares\AppData\Roaming\npm\verdaccio.cmd");
+            var info = new ProcessStartInfo(@"C:\Users\ftavares\AppData\Roaming\npm\verdaccio.cmd", @"D:\verdaccio\config.yaml");
             info.UseShellExecute = false;
             info.RedirectStandardError = true;
             info.RedirectStandardInput = true;
@@ -34,7 +34,7 @@ namespace VerdaccioService
             info.CreateNoWindow = true;
             info.ErrorDialog = false;
             info.WindowStyle = ProcessWindowStyle.Hidden;
-
+            
             process = Process.Start(info);
 
 
