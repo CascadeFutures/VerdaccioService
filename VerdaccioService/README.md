@@ -18,6 +18,6 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\installutil.exe -u .\VerdaccioServ
 
 ## On Users Machines
 
-npm config set @cascade:registry http://localhost:4873
+npm config set @cascade:registry http://http://172.27.74.150:4873
 
 npm adduser --scope @cascade
